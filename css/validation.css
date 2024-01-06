@@ -1,0 +1,42 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.valdr-message {
+  display: none;
+}
+.valdr-message.ng-dirty.ng-invalid.ng-touched,
+.valdr-message.ng-invalid.ng-pristine.ng-touched,
+.ng-submitted .valdr-message.ng-invalid {
+  display: inline-block;
+  color: #cc0000;
+  line-height: normal !important;
+  position: relative;
+  top: -1.4rem;
+}
+.form-field input.ng-invalid.ng-dirty.ng-touched,
+.form-field input.ng-invalid.ng-pristine.ng-touched,
+.form-field select.ng-invalid.ng-dirty.ng-touched,
+.form-field select.ng-invalid.ng-pristine.ng-touched,
+.form-field textarea.ng-invalid.ng-dirty.ng-touched,
+.form-field textarea.ng-invalid.ng-pristine.ng-touched,
+form.ng-submitted .form-field input.ng-invalid,
+form.ng-submitted .form-field select.ng-invalid,
+form.ng-submitted .form-field textarea.ng-invalid,
+form .ng-submitted .form-field input.ng-invalid,
+form .ng-submitted .form-field select.ng-invalid,
+form .ng-submitted .form-field textarea.ng-invalid {
+  border: 0.1rem solid #cc0000;
+}
+/* form.ng-submitted .form-field.ng-invalid span.textfield-icon-calendar,
+form.ng-submitted .form-field.ng-dirty span.textfield-icon-calendar,
+form .ng-submitted .form-field.ng-invalid span.textfield-icon-calendar,
+form .ng-submitted .form-field.ng-dirty span.textfield-icon-calendar {
+  border: 1rem/@px solid @alertColor1 !important;
+}
+ */
+/* select2 */
+.select2-invalid {
+  border: 0.1rem solid #cc0000;
+}
+.select2-invalid.select2-container--default .select2-selection--single .select2-selection__rendered {
+  border-bottom: none;
+}

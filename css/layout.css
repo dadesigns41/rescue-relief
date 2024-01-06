@@ -1,0 +1,56 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.tile {
+  overflow: hidden;
+  display: inline-block;
+  height: 44.4rem;
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.1), 0 0 0.2rem rgba(0, 0, 0, 0.8), /*inset 0 0 150rem/@px rgba(0,0,0,0.15)*/;
+  background-color: #f6f6f6;
+  text-align: center;
+  margin: 0.4rem 0.4%;
+  vertical-align: top;
+  transition: box-shadow 0.8s ease-in-out;
+  -webkit-transition: box-shadow 0.6s ease-in-out;
+  -moz-transition: box-shadow 0.6s ease-in-out;
+  -ms-transition: box-shadow 0.6s ease-in-out;
+  -o-transition: box-shadow 0.6s ease-in-out;
+  float: left;
+}
+.page-slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.page-slide.ng-enter,
+.page-slide.ng-leave {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.page-slide.ng-enter {
+  left: 100%;
+  min-height: 30rem;
+  height: auto;
+}
+.page-slide.ng-enter-active {
+  height: auto;
+  left: 0rem;
+}
+.page-slide.ng-leave {
+  position: absolute !important;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+.page-slide.ng-leave-active {
+  height: auto;
+  left: -100%;
+}

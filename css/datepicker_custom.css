@@ -1,0 +1,82 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.datepicker {
+  margin: 0 1rem;
+}
+.datepicker thead h2 {
+  height: 6rem;
+  margin: 0rem;
+  padding-top: 1.6rem;
+  cursor: pointer;
+  color: #666666;
+}
+.datepicker tbody {
+  cursor: pointer;
+}
+.datepicker th {
+  margin-top: 1.2rem;
+}
+.datepicker th.previous {
+  float: left;
+}
+.datepicker th.next {
+  float: right;
+}
+.datepicker th.previous_next {
+  min-width: 6.9rem;
+}
+.datepicker tbody tr.empty_row {
+  font-size: 0.8rem;
+}
+.datepicker tbody tr.empty_row:after {
+  content: "\00a0";
+}
+.datepicker tbody tr td {
+  padding: 0rem;
+}
+.datepicker tbody tr td.day_calendar div.dt_container {
+  width: 3.4rem;
+}
+.datepicker tbody tr td.month_calendar div.dt_container {
+  width: 8rem;
+}
+.datepicker tbody tr td.year_calendar div.dt_container {
+  width: 4.8rem;
+}
+.datepicker tbody tr td.notInMonth {
+  color: #626262;
+  background-color: #eeeeee;
+}
+.datepicker tbody tr td div.dt_container {
+  height: 3.4rem;
+  margin: auto;
+  color: #444;
+}
+.datepicker tbody tr td div.dt_container div.dt_selector {
+  height: 100%;
+  width: 100%;
+  border: 0.1rem;
+  border-style: inherit;
+  border-color: inherit;
+  border-radius: 50%;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.datepicker tbody tr td div.dt_container.current-date .dt_selector {
+  background-color: #497629;
+  color: #ffffff !important;
+}
+.datepicker tbody tr td div.dt_container.dt_selected .dt_selector {
+  color: #497629;
+  border: 0.1rem dotted #497629;
+}
+.datepicker tbody tr td div.dt_container .dt_selector:hover {
+  border: 0.1rem dotted #497629;
+}
+.datepicker_done_btn {
+  margin: 0rem;
+  min-width: 6.3rem;
+  min-height: 3.2rem;
+  height: auto;
+}

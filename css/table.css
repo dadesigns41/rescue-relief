@@ -1,0 +1,74 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+/*tables*/
+/** use this for showing list of records like transactions, transfers **/
+.table {
+  margin: 0 auto;
+  width: 100%;
+  border-spacing: 0;
+}
+.table .table {
+  background: transparent;
+}
+.tableHeaderRow {
+  height: 1.875rem;
+}
+.tableDataRow {
+  height: 4.4rem;
+}
+.tableDataRow > td {
+  text-overflow: ellipsis;
+  padding-right: 1rem;
+  color: #444;
+  border-bottom: 0.1rem solid #cccccc;
+  text-align: left;
+}
+.tableHeaderRow > th {
+  border-bottom: 0.1rem solid #cccccc;
+}
+.tableColumnHeader {
+  border-bottom: 0.1rem solid #000000;
+  text-align: left;
+  font-family: boldFont;
+  font-size: 1.4rem;
+  height: 4.4rem;
+}
+/*.tableHeaderRow > th {
+ text-align:left;
+ font-family:lightFont; 
+ font-size:18rem/@px; 
+ color:#888; 
+ padding-top:44rem/@px !important;
+ }*/
+.tableSectionBreak {
+  height: 4rem;
+}
+@media only screen and (max-width: 900px) {
+  .tableHide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  td {
+    font-size: 1.4rem;
+  }
+}
+/** override bootstrap**/
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  padding: 0.8rem;
+  line-height: normal;
+  vertical-align: inherit;
+  border-top: none;
+}
+.tableSectionHeader {
+  text-align: left;
+  font-family: lightFont;
+  font-size: 1.8rem;
+  color: #888;
+  padding-top: 4.4rem !important;
+}

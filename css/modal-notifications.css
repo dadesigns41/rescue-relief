@@ -1,0 +1,150 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.ui-dialog {
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  max-width: 40rem;
+  width: 80% !important;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  -webkit-transition: top 0.2s ease-in-out;
+  -moz-transition: top 0.2s ease-in-out;
+  -ms-transition: top 0.2s ease-in-out;
+  -o-transition: top 0.2s ease-in-out;
+  z-index: 10900;
+}
+.ui-dialog.ui-widget-content {
+  border: none;
+  background: #ffffff;
+}
+.ui-dialog button {
+  margin: 0;
+  width: 100%;
+  height: 4rem;
+}
+.ui-dialog-titlebar {
+  padding: 0 !important;
+  border-radius: 0;
+  border: none;
+}
+.ui-dialog-titlebar a.icon {
+  position: absolute;
+  right: 2.8rem;
+  top: 0.8rem;
+  color: #666;
+}
+.ui-dialog-titlebar.ui-widget-header {
+  background: none;
+}
+.ui-dialog-title {
+  color: #497629;
+  background: #ffffff;
+  height: auto;
+  min-height: 5rem;
+  margin: 0 !important;
+  padding: 1.2rem 3.5rem 0.4rem 3.5rem;
+  border-bottom: 0.1rem solid #497629;
+  font-family: regularFont;
+  font-size: 2.2rem;
+  width: 100% !important;
+}
+.ui-dialog-titlebar-close {
+  display: none;
+}
+.ui-dialog-content {
+  height: auto;
+  text-align: center;
+  font-family: boldFont;
+  font-size: 1.4rem;
+  min-height: 16.5rem;
+  color: #666666;
+}
+@media (max-width: 768px) {
+  .ui-dialog-content {
+    padding: 2.5rem 2rem 5rem 2rem !important;
+  }
+}
+@media (min-width: 769px) {
+  .ui-dialog-content {
+    padding: 2.5rem 3.5rem 5rem 3.5rem !important;
+  }
+}
+.ui-dialog-content > p:first-child {
+  height: auto;
+  font-size: 1.6rem;
+  margin: 0 !important;
+}
+.ui-dialog-buttonpane {
+  margin: 0 !important;
+  padding: 0 3.5rem !important;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none !important;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button {
+  background-color: #e97300;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0 5rem;
+  width: 100%;
+  height: 4rem !important;
+  font-family: mediumFont;
+  font-size: 1.6rem;
+  text-shadow: 0 0rem 0.2rem rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.2), 0 1rem 0.2rem -0.6rem rgba(0, 0, 0, 0.2) !important;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) {
+  border-bottom: 0.2rem solid #b93400;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1),
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) {
+  margin: 0 0 1.5rem 0 !important;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2),
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(3) {
+  color: #666666;
+  border-bottom: 0.2rem solid #eeeeee;
+  background: #ffffff;
+  radius: 0.2rem;
+  background: transparent;
+  padding: 0 1.5rem;
+  min-width: 10rem;
+  min-height: 4rem;
+  font-family: regularFont;
+  font-size: 1.4rem;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2), 0 0.5rem 0.1rem -0.3rem rgba(0, 0, 0, 0.2);
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2):hover,
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(3):hover {
+  background-color: #dddddd;
+  border-bottom: 0.2rem solid #dddddd;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2):focus,
+.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(3):focus {
+  box-shadow: 0 0 0 0.1rem #ffffff, 0rem 0rem 0.4rem 0.3rem Dodgerblue;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:last-child {
+  margin: 0 0 3.5rem 0 !important;
+}
+.ui-dialog-buttonpane.ui-widget-content {
+  border: none;
+  background: #fff;
+}
+.ui-widget-overlay {
+  background: #000 !important;
+  z-index: 10800;
+}
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.ui-dialog-title {
+  white-space: pre-wrap !important;
+}

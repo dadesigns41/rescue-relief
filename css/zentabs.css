@@ -1,0 +1,80 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.zen-tabs {
+  background-color: #eeeeee;
+  height: 4.2rem;
+  margin-bottom: 1.5rem;
+}
+.zen-tabs ul {
+  margin: 0rem;
+  white-space: nowrap;
+}
+.zen-tabs li {
+  display: inline-block;
+  line-height: 4rem;
+}
+.zen-tabs li a {
+  position: relative;
+  top: -0.1rem;
+  font-family: regularFont;
+  font-size: 1.6rem;
+}
+@media (max-width: 400px) {
+  .zen-tabs li a {
+    font-size: 1.4rem;
+  }
+}
+.zen-tabs li a.dropdown-toggle {
+  color: #666666;
+}
+.zen-tabs li a:hover {
+  color: #497629;
+}
+.zen-tabs li a:focus {
+  color: #497629;
+  border: 1px solid DodgerBlue;
+}
+.zen-tabs li.active a {
+  color: #497629;
+  border-bottom: 4px solid #497629;
+}
+.zen-tabs li.dropdown ul.dropdown-menu {
+  border-radius: 0rem;
+  min-width: inherit;
+  padding: 0rem;
+  white-space: normal;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li {
+  width: 100%;
+  padding: 0rem;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li a {
+  margin: 0px 0.5rem;
+  border-bottom: 1px solid #497629;
+  background-color: transparent !important;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li a:hover {
+  background-color: transparent;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li:hover {
+  background-color: #f5f5f5;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li.active a {
+  color: #497629;
+}
+.zen-tabs li.dropdown ul.dropdown-menu li:last-child a {
+  border: none;
+}
+.zen-tab {
+  /* marker only class */
+}
+.zen-tab-hidden {
+  position: absolute;
+  visibility: hidden;
+  display: block;
+}
+.zen-dropdown-hidden {
+  position: absolute;
+  visibility: hidden;
+  display: block;
+}

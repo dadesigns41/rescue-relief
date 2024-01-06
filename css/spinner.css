@@ -1,0 +1,28 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.dimBackground {
+  top: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 9998;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+.spinner {
+  pointer-events: none;
+  top: 30rem;
+  left: 0;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  color: #F5F5F5;
+  z-index: 9998;
+}
+.spinner p {
+  font-size: 1.8rem;
+}

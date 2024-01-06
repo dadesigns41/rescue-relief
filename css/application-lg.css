@@ -1,0 +1,161 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+.flex40,
+.flex60,
+.flex30,
+.flex20,
+.flex70,
+.flex80 {
+  width: 50%;
+}
+.favoritesBar {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.showMobileCart {
+  display: none;
+}
+.AOCart {
+  display: flex;
+}
+.flexColumns.block_768 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flexColumns.rowReverse > div {
+  margin-right: 2.5rem;
+}
+.flexColumns.rowReverse > div:first-of-type {
+  margin-right: 0;
+}
+.miniWrapper > fieldset > div {
+  flex-direction: column;
+  align-items: center;
+}
+.acctOverviewBalanceAmtLbl {
+  font-size: 1.6rem !important;
+}
+#commCenter {
+  font-size: 1.4rem !important;
+}
+.twoColumnLayoutLeft {
+  width: 40%;
+  display: block;
+}
+.twoColumnLayoutRight {
+  width: 60%;
+}
+.flexColumns > div {
+  margin-right: 2.5rem;
+}
+.floatingListingItems {
+  display: none;
+}
+.itemsListing {
+  display: block;
+}
+/* accounts */
+#acctSelectedCard {
+  display: none;
+}
+.acctSelected {
+  display: none;
+}
+.helpIcon {
+  display: none;
+}
+.buttonContainer > button {
+  display: block;
+  width: 100%;
+}
+.advertisement {
+  position: relative;
+  box-shadow: none;
+}
+.advertisement > .leaderboard {
+  display: none;
+}
+.advertisement > .medium_rectangle {
+  display: block;
+}
+fieldset {
+  border: 0.1rem solid #cccccc;
+  border-radius: 0.2rem;
+  padding-left: 1.2rem;
+  padding-bottom: 1rem;
+  padding-right: 1.2rem;
+  padding-top: 0.7rem;
+  margin-bottom: 2rem;
+}
+.fieldsetSegment {
+  border: 0;
+  border-radius: 0.2rem;
+  padding-left: 0rem;
+  padding-bottom: 2.5rem;
+  padding-right: 0rem;
+  padding-top: 1rem;
+  margin-bottom: 0rem;
+}
+tabBarWrapper2 {
+  margin: 0 -2.5rem;
+}
+.tabBarWrapper2 > .tabs > div {
+  padding: 0 2.5rem;
+}
+.flex_100-100-100-50 {
+  width: 100%;
+}
+.navbarrMargin {
+  min-width: 45rem;
+  margin-bottom: 1rem;
+}
+.flexColumns.kiosk_block {
+  display: block;
+}
+.flexColumns.kiosk_block > div {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.kioskColumnLayoutLeft {
+  display: block;
+}
+.fullWidth > .flexColumns > div:last-of-type {
+  margin-right: 0rem !important;
+}
+.kioskItemsListing {
+  display: none;
+}
+.KioskFloatingListingItems {
+  display: block;
+}
+.selectedKiosk {
+  display: block;
+}
+.kioskContentHide {
+  display: none;
+}
+.hidden-application-lg {
+  display: none !important;
+}
+.visible-application-lg {
+  display: block !important;
+}
+.textFieldSmall {
+  width: 50% !important;
+}
+.textFieldS {
+  width: 60% !important;
+}

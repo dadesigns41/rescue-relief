@@ -1,0 +1,30 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+/*** pdfview Modal *****/
+.pdfViewerModal {
+  width: 100%;
+  height: 100% !important;
+  background-color: white !important;
+}
+.pdfViewerModal .modalHeader,
+.pdfViewerModal .modal-content {
+  border-radius: 0;
+}
+.pdfViewerModal .modal-dialog {
+  padding: 0 !important;
+  height: 100%;
+  width: 100%;
+}
+.pdfViewerModal .navigationBar {
+  height: 5rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background: #000000;
+}
+.pdfViewerModal .btn-group .btn {
+  width: 8rem;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  margin-top: 0.3rem;
+}

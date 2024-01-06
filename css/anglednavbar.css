@@ -1,0 +1,217 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+/* If you plan on using affixed states, you need to include these in your CSS */
+body.navbar-affixed-top {
+  padding-top: 7rem;
+}
+body.navbar-affixed-bottom {
+  padding-bottom: 7rem;
+}
+/* Bootstrap relies on HREF property of the A tag to be present to display the correct cursor but since we're using ng-click we need to have the following CSS */
+.navbar a {
+  cursor: pointer;
+}
+/* For looks, following is not necessary, although I recommend including the statements for the search form */
+.navbar {
+  /*border-radius: 4rem/@px 4rem/@px 0 0;*/
+  /*border-bottom: 1rem/@px solid #bbb;*/
+  /*box-shadow: 0 6rem/@px 12rem/@px rgba(0,0,0,.175);*/
+
+  /*box-shadow: 0 2rem/@px 0 rgba(0,0,0,0.05);*/
+  /*background-color: #F8F8F5;*/
+  border-bottom: 0rem solid #497629;
+  min-height: 3.6rem;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  margin-bottom: 1.5rem;
+}
+form[role=search],
+form[role=search]:before,
+form[role=search]:after {
+  border: 0;
+  box-shadow: none;
+}
+form[role=search] button,
+form[role=search] input {
+  margin: 0;
+  border-radius: 0rem;
+  border: 0;
+}
+form[role=search] input {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  height: auto;
+}
+form[role=search] button {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  border: 0;
+  border-left: 0.1rem solid #cccccc;
+}
+form[role=search] .form-group {
+  border-radius: 0.4rem;
+  border: 0.1rem solid #cccccc;
+  white-space: nowrap;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.175);
+}
+.navbar-nav > li > a.on,
+.navbar-nav > li > a.on:hover,
+.navbar-nav > li > a.on:focus {
+  background-color: inherit;
+  color: #497629 !important;
+  border-bottom: 0.4rem solid #497629;
+}
+@media (max-width: 1023px) {
+  form[role=search] input {
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+  }
+  form[role=search] button {
+    display: none;
+  }
+  .navbar-header {
+    display: block;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-header {
+    display: block;
+    float: none;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-collapse {
+    border-top: 0.1rem solid;
+  }
+  .navbar-collapse.collapse {
+    display: normal !important;
+  }
+  .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav .open .dropdown-menu {
+    border-radius: 0;
+    box-shadow: inset 0 0.3rem 0.6rem rgba(0, 0, 0, 0.175), inset 0 -0.3rem 0.6rem rgba(0, 0, 0, 0.175);
+  }
+  .navbar-inverse .open .dropdown-menu {
+    border-top: 0.1rem solid #333333;
+    border-bottom: 0.1rem solid #333333;
+  }
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover {
+    background-color: #497629;
+    color: #ffffff;
+  }
+  .navbar-header div.current {
+    position: absolute;
+    width: 100%;
+    color: #497629;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
+    padding-left: 2rem;
+  }
+  .navbar-default {
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2), 0 0rem 0.2rem rgba(0, 0, 0, 0.2);
+    z-index: 9;
+    background: #FFF;
+  }
+  .navbar-toggle {
+    background: #ffffff url(../images/drop_down_blue.svg) right center no-repeat;
+    padding-top: 2rem;
+  }
+  .navbar-toggle span {
+    display: none !important;
+  }
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+/*@media (max-width: 768px) {
+	.navbar-header {
+		display:block;
+	}
+}*/
+@media (min-width: 768px) {
+  /*.navbar-header {
+  		display:none;
+  	}*/
+  .navbar-nav {
+    text-align: left;
+  }
+  nav .container-fluid,
+  nav .navbar-collapse {
+    padding: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-header {
+    display: none;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #497629;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+    font-family: regularFont;
+  }
+  .collapse {
+    display: block;
+  }
+  .navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inherit;
+  }
+  .navbar-nav {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    background-color: #F8F8F5;
+    color: #497629 !important;
+  }
+  .navbar-header div.current {
+    display: none;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+}
+.navbar-brand {
+  height: 4.5rem;
+}
+.navbar-toggle {
+  margin-bottom: 0;
+}
+/* Override styles START */
+.navbar-default {
+  background-color: #eeeeee;
+  margin-bottom: 0.3rem !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #666666;
+}
+.navbarrMargin {
+  width: 100%;
+}

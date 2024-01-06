@@ -1,0 +1,13 @@
+/***** START OF CORE CONTENT. DO NOT EDIT ANY OF BELOW CONTENT. *****/
+/***** END OF CORE CONTENT. DO NOT EDIT ANY OF ABOVE CONTENT. *****/
+/** overide Jquery accordion styles to remove box-shadow **/
+.accordion dl dt.active a {
+  -moz-box-shadow: inset 0rem -0.4rem 0.8rem 0rem rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0rem -0.4rem 0.8rem 0rem rgba(0, 0, 0, 0);
+  box-shadow: inset 0rem -0.4rem 0.8rem 0rem rgba(0, 0, 0, 0);
+}
+.accordion dl:hover {
+  -moz-box-shadow: 0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0);
+  box-shadow: 0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0);
+}

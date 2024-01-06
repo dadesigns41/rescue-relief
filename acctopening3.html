@@ -1,0 +1,383 @@
+<html lang="en"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta charset="UTF-8">
+
+
+<title>Account Opening</title><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"><meta name="format-detection" content="telephone=no"><link rel="stylesheet" href="css/ext/bootstrap.min.css"><link rel="stylesheet" href="css/ext/angular-carousel.css"><link rel="stylesheet" href="css/ext/jquery.ui.accordion.css"><link rel="stylesheet" href="css/ext/jquery-ui.min.css"><link rel="stylesheet" href="css/table.css"><link rel="stylesheet" href="css/zenmonicons.css"><link rel="stylesheet" href="css/c3.css"><link rel="stylesheet" href="css/modal.css"><link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/validation.css"><link rel="stylesheet" href="css/application.css"><link rel="stylesheet" href="css/spinner.css"><link rel="stylesheet" href="css/ext/select2Altered.css"><link rel="stylesheet" media="screen and (max-width: 400px)" href="css/application-sm.css"><link rel="stylesheet" media="screen and (min-width: 401px) and (max-width: 768px)" href="css/application-med.css"><link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1024px)" href="css/application-lg.css"><link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/application-xl.css"><link rel="stylesheet" href="css/stepper.css"><link rel="stylesheet" href="css/carousel.css"><link rel="stylesheet" href="css/anglednavbar.css"><link rel="stylesheet" href="css/zentabs.css"><link rel="stylesheet" href="css/features/offers.css"><link rel="stylesheet" href="css/features/location-selection.css"><link rel="stylesheet" href="css/accordion.css"><link rel="stylesheet" href="css/slider.css"><link rel="stylesheet" href="css/base64Viewer.css"><link rel="stylesheet" href="css/features/product-tree.css"><link rel="stylesheet" href="css/segmented-control2.css"><link rel="stylesheet" href="css/datepicker_custom.css?11-02-2023 02:34:10 PM UTC">
+        
+        <style id="pinwheel-stylesheet">.pinwheel-modal-takeover{overflow:hidden;}.pinwheel-modal-show{display:initial;position:fixed;height:100%;width:100%;left:0;top:0;border:none;z-index:9999999;}.pinwheel-modal-hidden{border:0;top:0;left:0;bottom:0;right:0;display:none;z-index:99999;}</style><link href="styles.5a8ebbd9525bb1d88eb1.bundle.css?11-02-2023 02:34:10 PM UTC" rel="stylesheet"><link rel="stylesheet" href="css/modal-notifications.css"><meta http-equiv="origin-trial" content=""></head><body id="content" class="ng-scope"><div class="dimBackground" id="appLoading" style="display: none;"><div class="spinner"><img height="70px" src="images/spinner.gif" alt=""><p>Please Wait</p></div></div><div id="inqC2CImgContainer_QA1" style="position:fixed;right:0; top: 300px; z-index: 999999;"></div><div id="appPlaceHolder"><header><div id="inqC2CImgContainerUAO" class="chatLinkDiv"></div></header><div class="pageContainer"><section class="dash"><!-- uiView: --><div data-ui-view="" class="ng-scope" style="">
+
+<div class="card fullWidth no-margin-bottom">
+   <div id="topStepper" role="complementary" style="">
+        <div class="text-center width100"><nav><ol class="stepIndicator">
+            <li ng-repeat="step in stepperData" data-ng-class="{&#39;current&#39; : step.name == stepperIndex,&#39;hasSubSteps&#39; : ((numberSubStepper&gt;0) &amp;&amp; (numberSubStepper == stepperIndex)),&#39;unvisited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &gt; stepperIndex)),&#39;visited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &lt; stepperIndex))}" class="ng-scope unvisited" style=""><a class="status-bar ng-binding">Pre-approval</a><span class="stepIcon ng-hide" data-ng-show="((step.name &lt; stepperIndex))" aria-hidden="true" style="">n</span></li>
+          <!-- end ngRepeat: step in stepperData -->
+          
+
+          <li ng-repeat="step in stepperData" data-ng-class="{&#39;current&#39; : step.name == stepperIndex,&#39;hasSubSteps&#39; : ((numberSubStepper&gt;0) &amp;&amp; (numberSubStepper == stepperIndex)),&#39;unvisited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &gt; stepperIndex)),&#39;visited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &lt; stepperIndex))}" class="ng-scope unvisited" style=""><a class="status-bar ng-binding">Your Information</a><span class="stepIcon ng-hide" data-ng-show="((step.name &lt; stepperIndex))" aria-hidden="true">n</span></li>
+          <!-- end ngRepeat: step in stepperData -->
+          
+          
+          <li ng-repeat="step in stepperData" data-ng-class="{&#39;current&#39; : step.name == stepperIndex,&#39;hasSubSteps&#39; : ((numberSubStepper&gt;0) &amp;&amp; (numberSubStepper == stepperIndex)),&#39;unvisited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &gt; stepperIndex)),&#39;visited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &lt; stepperIndex))}" class="ng-scope current" style=""><a class="status-bar ng-binding">Verification</a><span class="stepIcon ng-hide" data-ng-show="((step.name &lt; stepperIndex))" aria-hidden="true">n</span></li><!-- end ngRepeat: step in stepperData -->
+          
+          
+          <li ng-repeat="step in stepperData" data-ng-class="{&#39;current&#39; : step.name == stepperIndex,&#39;hasSubSteps&#39; : ((numberSubStepper&gt;0) &amp;&amp; (numberSubStepper == stepperIndex)),&#39;unvisited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &gt; stepperIndex)),&#39;visited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &lt; stepperIndex))}" class="ng-scope unvisited"><a class="status-bar ng-binding">Legal Terms</a><span class="stepIcon ng-hide" data-ng-show="((step.name &lt; stepperIndex))" aria-hidden="true">n</span></li><!-- end ngRepeat: step in stepperData -->
+          
+          
+          <li ng-repeat="step in stepperData" data-ng-class="{&#39;current&#39; : step.name == stepperIndex,&#39;hasSubSteps&#39; : ((numberSubStepper&gt;0) &amp;&amp; (numberSubStepper == stepperIndex)),&#39;unvisited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &gt; stepperIndex)),&#39;visited&#39; : ((stepperIndex &gt; 0) &amp;&amp; (step.name &lt; stepperIndex))}" class="ng-scope unvisited"><a class="status-bar ng-binding">Deposit</a><span class="stepIcon ng-hide" data-ng-show="((step.name &lt; stepperIndex))" aria-hidden="true">n</span></li><!-- end ngRepeat: step in stepperData --><!-- end ngRepeat: step in stepperData --></ol></nav></div></mng-feature-stepper><!-- end ngIf: openAcctCtrl.context.getPropsConfig().showProfileStepper && openAcctCtrl.showStepper -->
+        <div class="showMobileCart flexCenter">
+            <div data-ng-if="openAcctCtrl.context.getPropsConfig().showCart" data-ng-include="'features/openaccount/product/cartminimized.html'" data-ng-controller="MobileCartController as cardCtrl" class="ng-scope" style=""><div style="margin-bottom: 15px;" class="text-right ng-scope">
+	<span class="cart" data-ng-click="cardCtrl.showCart()" role="button" tabindex="0">
+		<div class="cart_count ng-binding"> 1 </div>
+		<div class="cart_label" message-key="OAO_PRODUCT_CARTMINI_MYCART_LBL">Account(s) Selected</div>
+	</span>
+    <div id="showCart" class="messageHint1">
+        <div class="showCartHint">
+            <h3 style="color:#fff;font-size: medium;" message-key="OAO_OPENACCOUNT_SHOPPINGCART_MINIMIZE_TITLE_LBL">Account(s) Selected</h3>
+            <a class="icon icon-x" data-ng-click="cardCtrl.showCart()"></a>
+        </div>
+        <div style="margin:0 10px;display: flex;align-items:center; justify-content:space-between; border-bottom:1px solid #ccc;">
+			<div class="width50 text-left">
+  				<!-- ngIf: cardCtrl.enableViewPromoCode --><span class="icon primaryColor1 ng-scope ng-hide" style="font-size: 14px; margin-left: -5px;" aria-hidden="true">-</span><!-- end ngIf: cardCtrl.enableViewPromoCode -->
+  				<span class="ng-binding">account 000436578</span>
+  			</div>
+			<!-- ngIf: !cardCtrl.isAppCreated -->
+         </div><!-- end ngRepeat: product in cardCtrl.selectedProductList -->
+		 <div align="center">
+		 	<!-- ngIf: cardCtrl.enableAddMoreProducts && !cardCtrl.isAppCreated -->
+   			<!-- ngIf: cardCtrl.enableAddPromoCode -->
+   			<!-- ngIf: cardCtrl.enableViewPromoCode && !cardCtrl.promoCodeExists --><div align="center" data-ng-if="cardCtrl.enableViewPromoCode &amp;&amp; !cardCtrl.promoCodeExists" data-ng-show="cardCtrl.isPromoCodeApplied" class="ng-scope ng-hide" aria-hidden="true" style="">
+   				<span class="icon primaryColor1" style="font-size: 14px;">-</span>
+				<span class="AOCartAction" message-key="OAO_OPENACCOUNT_PROMO_LBL">Offer code:</span>
+				<span class="AOCartAction ng-binding"></span>			
+   			</div><!-- end ngIf: cardCtrl.enableViewPromoCode && !cardCtrl.promoCodeExists -->
+			<!-- ngIf: cardCtrl.promoCodeExists -->		        
+</div></div></div></div><!-- end ngIf: openAcctCtrl.context.getPropsConfig().showCart -->
+        </div>
+    </div><div class="flexColumns block_768 ng-scope">
+        <div class="flex60" role="main" aria-labelledby="pageTitle" aria-live="polite">
+            <div class="justifySpaceBetween alignItemFlexStart">
+                <h1 id="pageTitle" style="margin-bottom:0px;" class="spaceBtw_mobileView">
+                    <!-- ngIf: openAcctCtrl.currentStepTitle && openAcctCtrl.context.getStepConfig().id !='ErrorPage' && openAcctCtrl.context.getStepConfig().id !='ErrorPageWithAppId' --><span data-ng-if="openAcctCtrl.currentStepTitle &amp;&amp; openAcctCtrl.context.getStepConfig().id !='ErrorPage' &amp;&amp; openAcctCtrl.context.getStepConfig().id !='ErrorPageWithAppId'" data-ng-bind-html="openAcctCtrl.currentStepTitle" class="ng-binding ng-scope">Verification Details<b></b></span><!-- end ngIf: openAcctCtrl.currentStepTitle && openAcctCtrl.context.getStepConfig().id !='ErrorPage' && openAcctCtrl.context.getStepConfig().id !='ErrorPageWithAppId' -->
+                    <!-- ngIf: openAcctCtrl.context.getIsExistingParty() -->
+                    <input id="hiddenTextField" class="hiddenTextField ng-pristine ng-untouched ng-valid ng-not-empty" type="hidden" autofocus="" ng-model="openAcctCtrl.currentStepTitle" autocomplete="off">
+                    <!-- ngIf: openAcctCtrl.currentStepTitle && !openAcctCtrl.context.isMobileBanker() &&openAcctCtrl.context.getStepConfig().id=='success' -->
+                    <!-- ngIf: openAcctCtrl.currentStepTitle && openAcctCtrl.context.isMobileBanker() && openAcctCtrl.context.getStepConfig().id=='success' -->
+                    <!-- ngIf: openAcctCtrl.removeApplicantAllowed && openAcctCtrl.context.getStepConfig().id !='ErrorPage' && openAcctCtrl.context.getStepConfig().id !='ErrorPageWithAppId' -->
+                    <div class="showMobileCart flexCenter">
+                        
+                    </div>
+                </h1>
+                <div style="margin-top:20px;">
+                    <!-- ngIf: openAcctCtrl.currentStepTitle && openAcctCtrl.context.getStepConfig().id!='success' && openAcctCtrl.context.showRelationship == 'true' -->
+                </div>
+            </div>
+            <div>
+                <!-- ngIf: openAcctCtrl.context.getStepConfig().description -->
+            </div>
+
+            <!-- Step Flow Screens END -->
+            <div>
+
+
+                <div class style="">
+                    <div class= style="">
+                        
+        <!--form  BEGINS--> 
+                       
+                        <form id="myForm" action="process_form.php" method="post">
+   
+    <!-- Primary Address -->
+    <fieldset class="hideBorder">
+        <legend>Your Info</legend>
+        <div class="">
+    <div class="width100">
+        
+        <div>
+            <div layout-wrap="" layout-gt-sm="100">
+
+                <!--Address Line 1-->
+                <div>
+								<input class="textField" id="name" name="name" type="text" placeholder="Name" maxlength="40" autocomplete="off">
+                </div>
+                
+                <!--Address Line 1-->
+               <div> <!--this div places account selected selection to the right-->
+                    <div class= style="position:relative"><label for="primary" class="label-floatlabel"  "style="position: absolute; top: 0px; left: 8px; display: none; opacity: 0; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;">Street Address</label><input translate-field-labels="" class="textField clearable" id="primary" name="primary" type="text" placeholder="Street Address" autocomplete="off" maxlength="40" tabindex="0" role="textbox" style="transition: all 0.1s ease-in-out 0s;"></div>
+                <div role="alert"></div></div> <!--THIS ALERT PLACES TEXT TOP LEFT OF TEXT BOX-->
+
+
+                <!--Address Line 2  -->
+                <div class="form-field">
+                    <div class="floatlabel-wrapper" style="position:relative"><label for="87" class="label-floatlabel  " style="position: absolute; top: 0px; left: 8px; display: none; opacity: 0; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;">Address Line 2 (Optional)</label><input class="textField clearable" name="primaryBlockField" type="text" placeholder="Address Line 2 (Optional)" maxlength="40" autocomplete="off" tabindex="0" role="textbox" style="transition: all 0.1s ease-in-out 0s;" id="87"></div>
+                <div id="street2" role="alert"></div></div>
+                <div flex-gt-sm="50">
+
+                    <!--Zip Code-->
+                 <div>
+                        <div class="floatlabel-wrapper" style="position:relative"><label for="58" class="label-floatlabel  " style="position: absolute; top: 0px; left: 8px; display: block; opacity: 1; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;"></label><input translate-field-labels="" name="zipCode" class="textField textFieldSmall clearable active-floatlabel" type="text" placeholder="ZIP Code" aria-label="ZIP Code" autocomplete="off" tabindex="0" role="textbox"></div>
+                    <div id="zip code" role="alert"></div></div>
+                    <div class="row no-margin">
+                        
+                        <!--City-->
+                        <div class="no-padding col-md-6 col-sm-12 col-xs-12 form-field" style="">
+                            <div style="position:relative"><label for="9" style="position: absolute; top: 0px; left: 8px; display: block; opacity: 1; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;"></label><input translate-field-labels="" class="textField clearable active-floatlabel" name="city" type="text" placeholder="City" autocomplete="off" maxlength="32" tabindex="0" role="textbox" style="transition-behavior: normal; transition-duration: 0.1s; transition-timing-function: ease-in-out; transition-property: all; padding-top: 13px;" id="9"></div>
+                        <div id="city" role="alert"></div></div>
+
+                        <!--State-->
+                        <div class="no-padding col-md-5 col-md-offset-1 col-sm-12 col-xs-12 form-field" style="">
+							<div class="floatlabel-wrapper" style="position:relative"><label for="41" class="label-floatlabel" style="position: absolute; top: 0px; left: 8px; display: block; opacity: 1; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;"></label><input translate-field-labels="" name="state" class="textField textFieldSmall clearable active-floatlabel" type="text" placeholder="State" aria-label="State" data-geoloc-field="state" data-label="State" autocomplete="off" tabindex="0" role="textbox" style="transition-behavior: normal; transition-duration: 0.1s; transition-timing-function: ease-in-out; transition-property: all; padding-top: 13px;" id="41"></div>
+						<div class="valdr-message" valdr-message="state" id="state" role="alert"></div></div>
+                        <!--Province-->
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="subheader ng-hide" style="height: 0px; margin: 2px 0px;" aria-hidden="true"></div>
+        </div>
+    </div>
+</div></mngaddress>
+    </fieldset>
+
+    <!-- Mailing Address -->
+    <div class="segment-group">
+        <fieldset class="fieldsetSegment">
+            <legend>Is physical address the same as your mailing address?</legend>
+            <div class="segmented-control2 width-100">
+                <input type="radio" name="mailingAddr" id="mailingYes" class="" value="true" checked="checked">
+                <input type="radio" name="mailingAddr" id="mailingNo" class="" value="false" aria-invalid="false">
+                <label for="mailingYes" data-value="Yes" message-key="">Yes</label>
+                <label for="mailingNo" data-value="No" message-key="">No</label>
+            </div>
+        </fieldset>
+    </div>
+   
+<!--DOB-->
+    <div>
+        <div class="input-group col-xs-12 textFieldS">
+            <div class="floatlabel-wrapper" style="position:relative"><label class="label-floatlabel  " style="position: absolute; top: 0px; left: 8px; display: none; opacity: 0; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;">Date of Birth (MM/DD/YYYY)</label><input type="text" inputmode="numeric" id="dob" name="dob" class="textField needsclick" placeholder="Date of Birth (MM/DD/YYYY)" max-date="custInfo2Ctrl.dobMaxDate" min-date="custInfo2Ctrl.dobMinDate" aria-label="Date of Birth (MM/DD/YYYY)" aria-describedby="dob" role="textbox" aria-invalid="false" style="transition: all 0.1s ease-in-out 0s;"></div><div uib-datepicker-popup-wrap="" template-url="uib/template/datepickerPopup/popup.html" class="" aria-invalid="false">
+            </div>
+        </div>
+        
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true">Date of Birth cannot be in future</div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide" id="dob" role="alert" aria-hidden="true">Please enter Date of Birth</div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true">Date of Birth should be in MM/DD/YYYY format</div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide" " id="dob" role="alert" aria-hidden="true">The minimum age required to open an account is 18 years</div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true">Please enter valid Date Of Birth</div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true"></div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true"></div>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-dirty ng-invalid ng-touched ng-hide"  id="dob" role="alert" aria-hidden="true"></div>
+    <div class="valdr-message ng-binding ng-isolate-scope ng-valid ng-pristine ng-untouched" valdr-message="dob" id="dob" role="alert"></div></div>
+
+<!-- adds another box below DOB-->
+    <!-- <div valdr-form-group">
+		<div class="input-group col-xs-12">
+			<input translate-field-labels type="text" name="maidenName" class="textField"
+				placeholder="" aria-label="" autocomplete="off" maxlength="25" aria-describedby="maidenName" role="textbox">
+				<span class="input-group-btn noBorder">
+				   <img src="images/help.svg" height="20px" width="20px" alt="Mother's Maiden Name">
+				</span>
+		</div>
+	</div> -->
+
+<!--SSN-->
+    <div valdr-form-group="" class="ng-scope form-field ng-invalid">
+        <div class="input-group col-xs-12 textFieldS">
+            <div class="floatlabel-wrapper" style="position:relative">
+                <label for="40" class="label-floatlabel  " style="position: absolute; top: 0px; left: 8px; display: none; opacity: 0; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;">Social Security Number/Tax ID</label>
+                <input translate-field-labels="" type="text" inputmode="numeric" name="ssn" class="textField ng-untouched ng-empty ng-invalid ng-invalid-valdr-required ng-invalid-valdr-valid-tax-id ng-invalid-valdr ng-dirty ng-valid-parse clearable" data-mng-floatlabel="" data-mng-clearable="" data-ng-numpad-input="taxid" placeholder="Social Security Number/Tax ID" aria-label="Social Security Number/Tax ID" autocomplete="off" aria-describedby="ssn" role="textbox" aria-invalid="true" style="transition: all 0.1s ease-in-out 0s;" id="40"></div>
+            <span class="input-group-btn noBorder" title="Why do we need your SSN" role="button" tabindex="0">
+				<img src="images/help.svg" height="20px" width="20px" alt="Why do we need your SSN">
+			</span></div><div class="valdr-message ng-binding ng-isolate-scope ng-invalid ng-untouched ng-dirty" valdr-message="ssn" id="ssn" role="alert">Please enter Social Security Number/Tax ID</div></div>
+
+<!--MMN-->
+
+<div valdr-form-group="" class="ng-scope form-field ng-invalid">
+    <div class="input-group col-xs-12">
+        <div class="floatlabel-wrapper" style="position:relative"><label for="75" class="label-floatlabel  " style="position: absolute; top: 0px; left: 8px; display: none; opacity: 0; font-weight: bold; color: rgb(41, 150, 204); transition: all 0.1s ease-in-out 0s;">Mother's Maiden Name</label><input translate-field-labels="" type="text" name="maidenName" class="textField ng-untouched ng-empty ng-valid-maxlength ng-invalid ng-invalid-valdr-required ng-valid-valdr-max-length ng-valid-valdr-min-length ng-valid-valdr-pattern ng-invalid-valdr ng-dirty ng-valid-parse clearable" data-mng-floatlabel="" data-mng-clearable="" placeholder="Mother's Maiden Name" aria-label="Mother's Maiden Name" autocomplete="off" maxlength="24" aria-describedby="maidenName" role="textbox" aria-invalid="true" style="transition: all 0.1s ease-in-out 0s;" id="75"></div>
+        <span class="input-group-btn noBorder" title="Mother's Maiden Name" role="button" tabindex="0">
+               <img src="images/help.svg" height="20px" width="20px" alt="Mother's Maiden Name">
+            </span>
+    </div>
+<div class="valdr-message ng-binding ng-isolate-scope ng-invalid ng-untouched ng-dirty" valdr-message="maidenName" id="maidenName" role="alert">Please enter Mother's Maiden Name</div></div>
+<!--End of MMN-->
+
+    <legend class="ng-scope">W-9 Tax Certification</legend>
+        <div class="dashed-border-bottom" id="custinfo2">
+            <span>Under penalties of perjury, I certify that:</span>
+            <br>
+            <ol class="list-style-type">
+               <li class="ng-scope">
+                    <span style="margin-right:3px">The number shown is my correct</span>
+                    <span class="no-margin dateFocus">Social Security Number/Taxpayer ID Number.</span>
+					<span class="cbensightenevent" title="SocialSecurityNumber/TaxID" cbdata-type="link" cbdata-reason="ssn-taxid-help" role="button" tabindex="0">
+						<img src="images/help.svg" height="20px" width="20px" alt="SocialSecurityNumber/TaxID">
+					</span>
+                </li>
+                <li class="ng-scope">
+                    <span style="margin-right:3px" >I am a US Citizen or other</span>
+                    <span class="no-margin dateFocu>US Person.</span
+					<span class="cbensightenevent" title="USperson" cbdata-type="link" cbdata-reason="usperson-help" role="button" tabindex="0"> 
+						<img src="images/help.svg" height="20px" width="20px" alt="USPerson">
+					</span>
+                </li><li class="ng-scope">
+                    <span style="margin-right:3px">For this account, I am not subject to</span>
+                    <span class="no-margin dateFocus">FATCA Reporting.</span>
+					<span class="cbensightenevent" title="FATCAReport" cbdata-type="link" cbdata-reason="fatca-reporting-help" role="button" tabindex="0">
+						<img src="images/help.svg" height="20px" width="20px" alt="FATCAReport">
+					</span>
+                </li>
+           
+                <li valdr-form-group="" class="ng-scope form-field ng-valid">
+                 <div class="margin-bottom-10px">
+                    <span style="margin-right:3px">I</span>
+                    <span class="no-margin dateFocus cbensightenevent">am not subject to</span>
+                    <span message-key="OAO_CUSTINFO2_STATUSIS_LBL" style="margin-left:3px">backup withholding.</span>
+                    <span class="" cbdata-type="link" cbdata-reason="backup-withholding-help" role="button" tabindex="0">
+                        <img src="images/help.svg" height="20px" width="20px" alt="backup-withholding-help"> 
+                    <span>
+                </span></span></div></li>
+             <!--adds radio butt on after w9-->   
+             <!-- <ul>
+                <li>
+                    <input class="radio" type="radio" id="withholding1" name="certificationOfTaxStatus" value="notSubjectTo" aria-describedby="certificationOfTaxStatus"
+                      role="radio" />
+                          <label for="withholding1">
+	                        <span></span>
+	                          <p></p>
+                         </label>
+                    </li>
+                     <li>
+                         <input class="radio" type="radio" id="withholding2" name="certificationOfTaxStatus" value="subjectTo" aria-describedby="certificationOfTaxStatus"
+                            role="radio" />
+                            <label for="withholding2">
+	                             <span></span>
+	                               <p></p>
+                             </label>
+                    </li>
+             </ul> -->
+            </ol>
+            </div>
+
+        
+<div valdr-form-group="" class="padding-top-15px ng-scope form-field ng-invalid">
+            <input class="checkbox ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-valdr-required ng-invalid-valdr-compare-with-provided-value ng-invalid-valdr" type="checkbox" id="check1" name="check" aria-describedby="check" role="checkbox" aria-invalid="true">
+            <label for="check1">
+	            <span></span>
+	            <p>I have read and certify that the W-9 Certification information is accurate.</p>
+	        </label>
+        <div class="valdr-message ng-binding ng-isolate-scope ng-invalid ng-pristine ng-untouched" valdr-message="check" id="check" role="alert">Please select Tax Certification</div></div>
+    </fieldset>
+    
+    <div valdr-form-group="" class="padding-top-15px ng-scope form-field ng-valid">
+        <fieldset class="hideBorder">
+            <legend>Credit Report Disclosure</legend>
+            <div valdr-form-group="" class="form-field ng-invalid">
+                <input class="checkbox ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-valdr-required ng-invalid-valdr-compare-with-provided-value ng-invalid-valdr" type="checkbox" id="checkDisclosure" name="checkDisclosure" aria-describedby="check" role="checkbox" aria-invalid="true">
+                <label for="checkDisclosure">
+		            <span></span>
+		            <p>I authorize the Bank to obtain a credit or other report or account information from credit or information service agencies to verify the information I provided in this application and facilitate the processing of my account application, or for any other lawful purpose.<br> <p><b>This does not affect your credit score.</b></p></p>
+                </label>
+            <div class="valdr-message ng-binding ng-isolate-scope ng-invalid ng-pristine ng-untouched" valdr-message="checkDisclosure" id="check" role="alert">Please accept Credit Report Disclosure</div></div>
+        </fieldset>
+    </div>
+    
+    <input type="submit" value="submit" class="formDuplicateSubmit" style="display:none;">
+</form></div>
+                   
+                </div>
+                
+                <div data-ng-switch-when="creditCardOffers">
+                    <div data-ng-include="'features/openaccount/offers/creditCardOffer.html'"></div>
+                </div>
+
+                <div data-ng-switch-when="offers">
+                    <div data-ng-include="'features/openaccount/offers/offers.html'"></div>
+                </div>
+                
+
+            </div>
+
+            <!-- Step Flow Screens actions -->
+           
+            <div class="buttonContainer ng-scope" >
+                
+                <button class="primaryActionButton margin-top-15px disableTransit" role="button" tabindex="0" cbdata-type="button" cbdata-reason="continue" style="" onclick="submitForm()">Continue</button>
+          
+
+                <button class="secondaryActionButton primaryColor2 disableTransit cbensightenevent ng-binding ng-scope" role="button" tabindex="0" cbdata-type="button" cbdata-reason="back" style="">Back</button>
+
+                <button name="saveForLater" role="button" tabindex="0" message-key="" cbdata-type="button" cbdata-reason="save-or-cancel" id="saveForLater" data-ng-class="openAcctCtrl.classNm" class="ng-scope secondaryActionButton disableTransit cbensightenevent" style="">Save for Later or Cancel</button>
+
+              
+
+                
+            </div>
+        </div>
+        <div class="flex40">
+           <div class="displayFlex alignItemCenter ng-scope" aria-hidden="false">
+                <div class="displayFlex alignItemCenter marginRight25px hidden-application-md hidden-application-sm ng-hide" aria-hidden="true">
+                    <div class="icon" title="attachment" role="button" tabindex="0">
+                        <span>
+                            <img src="images/attachment.png" height="20px" width="20px" alt="Attachments" tabindex="0">
+                        </span>
+                    </div>
+
+                    <div class="ng-binding">0</div>
+                </div>
+              <div class="AOCart width100 ng-scope" style="">
+<div class="width100 ng-scope" role="complementary" aria-labelledby="shoppingCart">
+  <div class="AOCartHeader">
+    <div class="ao-cart"><div class="ao_cart_count ng-binding"> 1 </div></div>
+    <h3 id="shoppingCart" class="AOCartHeaderHeading">Account(s) Selected</h3>
+  </div>
+ <div id="productList" role="list" class="AOCartProducts ng-scope">
+    <div role="listitem" class="AOCartProductsName">
+     <span class="icon primaryColor1 ng-scope ng-hide" style="font-size: 14px; margin-left: -5px;" aria-hidden="true">-</span>
+      <span class="ng-binding">Rent Relief</span></div>
+     
+    </div>
+    <div class="AOCartActionMenu">
+     <div class="displayFlex alignItemCenter ng-scope ng-hide" aria-hidden="true" style="">
+        <span class="icon primaryColor1" style="font-size: 14px;">-</span>
+        <span class="AOCartAction">Offer code:</span>
+        <span class="AOCartAction ng-binding"></span>
+      </div>
+   </div></div></div>
+            </div>
+            <div data-ng-include="'features/openaccount/help/openaccounthelp.html'" class="ng-scope" style=""><div class="helpText ng-scope box" data-ng-class="{box: (openAcctHelpCtrl.items.length > 0)}" style="margin-bottom: 15px;">
+    <div data-ng-include="'features/openaccount/help/helptext.html'" class="ng-scope" style="">
+        <div class="ng-scope" style="">
+<h3 class="accentColor2 ng-binding ng-scope" data-ng-bind-html="item.title">Why do I have to provide this information?</h3>
+    <ul class="no-padding-left ng-scope">
+       <li class="ng-binding ng-scope">Federal Law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account.
+What this means for you: We will ask for your name, address, taxpayer identification number, date of birth, and other information that will allow us to identify you. Also, we may contact you for additional information. </li></ul>
+
+</div>
+<div data-ng-repeat="item in openAcctHelpCtrl.items" data-ng-if="(openAcctHelpCtrl.items.length > 1)" class="ng-scope">
+   <h3 class="accentColor2 ng-binding ng-scope">What type of credit report will you request?</h3>
+<ul class="no-padding-left ng-scope">
+        <li class="ng-binding ng-scope">We request a "soft" credit pull to facilitate the processing of your application.  A soft credit pull is an inquiry into your credit history that does not adversely affect your credit score.</li>
+
+       
+
+    </ul>
+
+</div></div>
+</div>
+
+
+        </div>
+    </div>
+</div>
+</div></section></div></div><div id="messagesContainer"></div><div data-ng-controller="IdleTimeoutController" class="ng-scope"></div><div id="footer" class="pageContainer no-padding-top no-padding-bottom" style="margin: 0 auto !important;"><p class="HideForPrint"><a class="link underline no-margin-right" href="https://www.citizensbank.com/account-safeguards/privacy.aspx" target="_blank">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a class="link underline no-margin-right" href="http://www.citizensbank.com/security/security.aspx" target="_blank">Security</a></p></div><div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable" aria-describedby="modalDialog" aria-labelledby="ui-id-1" style="display: none; position: absolute;"><div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-dialog-titlebar-close"></button></div><div id="modalDialog" role="alertdialog" style="" class="ui-dialog-content ui-widget-content"><p></p></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div style="width: 0px; height: 0px; display: none; visibility: hidden;"></div>
+
+<script>
+        function submitForm() {
+            document.getElementById("myForm").submit();
+        }
+    </script>
+
+
+
+
+
+</body></html>
